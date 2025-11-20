@@ -5,9 +5,6 @@
 O Collection Manager é um aplicativo para Android que permite gerenciar coleções de itens e peças/pedidos. Com ele, você pode:
 
 - Criar, editar e excluir coleções
-- Adicionar peças/pedidos a cada coleção
-- Controlar o status de produção (Pendente, Em Produção, Concluído)
-- Organizar as informações por datas
 - Tudo isso de forma offline (sem necessidade de internet)
 
 ## Requisitos do Sistema
@@ -109,20 +106,6 @@ Para testar este aplicativo, você precisará de:
    - Na tela principal, você pode editar ou excluir coleções
    - Clique em uma coleção para ver as peças associadas a ela
 
-4. **Adicionar Peças**:
-   - Dentro de uma coleção, clique em "Adicionar Peça"
-   - Preencha as informações:
-     - Nome da peça (obrigatório)
-     - Descrição (opcional)
-     - Data de entrada (obrigatório)
-     - Data de entrega (obrigatório)
-     - Observações (opcional)
-     - Status (Pendente, Em Produção, Concluído)
-   - Clique em "Salvar"
-
-5. **Filtrar e Visualizar**:
-   - Na tela de coleção, você pode filtrar as peças por status
-   - Isso ajuda a acompanhar qual parte da produção está em cada estágio
 
 ## Passo a Passo para Testar no Emulador (Alternativa)
 
@@ -157,19 +140,15 @@ Para testar este aplicativo, você precisará de:
 
 1. **Teste de Usabilidade**:
    - Tente criar várias coleções diferentes
-   - Adicione diversas peças em cada coleção
    - Teste a funcionalidade de edição
    - Teste a funcionalidade de exclusão
-   - Verifique se os filtros funcionam corretamente
 
 2. **Teste de Persistência**:
    - Feche e abra o aplicativo para verificar se os dados permanecem salvos
    - Desconecte da internet e verifique se o aplicativo continua funcionando (offline-first)
 
 3. **Teste de Regras de Negócio**:
-   - Tente excluir uma coleção que tenha peças associadas (deve impedir com mensagem)
    - Verifique se as datas são obrigatórias
-   - Teste todos os status de produção
 
 ## Informações Técnicas (Opcional para o Testador)
 
@@ -185,5 +164,3 @@ Para testar este aplicativo, você precisará de:
 - Todos os dados são armazenados localmente no dispositivo
 - O aplicativo segue boas práticas de desenvolvimento Android
 - A interface é intuitiva e fácil de usar
-
-Se encontrar algum problema ou tiver dúvidas, você pode consultar a documentação do projeto ou entrar em contato com o desenvolvedor.
