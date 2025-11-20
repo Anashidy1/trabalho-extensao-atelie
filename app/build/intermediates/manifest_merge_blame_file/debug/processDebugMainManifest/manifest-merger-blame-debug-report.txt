@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="br.com.collectionmanager"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\henri\.gradle\caches\8.13\transforms\2dcbccac06d1e840ec5321997e56e300\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="br.com.collectionmanager.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\henri\.gradle\caches\8.13\transforms\2dcbccac06d1e840ec5321997e56e300\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\henri\.gradle\caches\8.13\transforms\2dcbccac06d1e840ec5321997e56e300\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="br.com.collectionmanager.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\henri\.gradle\caches\8.13\transforms\2dcbccac06d1e840ec5321997e56e300\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\henri\.gradle\caches\8.13\transforms\2dcbccac06d1e840ec5321997e56e300\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:4:5-30:19
+18        android:allowBackup="true"
+18-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\henri\.gradle\caches\8.13\transforms\2dcbccac06d1e840ec5321997e56e300\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:6:9-43
+23        android:label="@string/app_name"
+23-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:7:9-41
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:8:9-40
+26        <activity
+26-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:9:9-17:20
+27            android:name="br.com.collectionmanager.MainActivity"
+27-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:10:13-41
+28            android:exported="true"
+28-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:12:13-36
+29            android:label="@string/app_name" >
+29-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:11:13-45
+30            <intent-filter>
+30-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:13:13-16:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:14:17-69
+31-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:14:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:15:17-77
+33-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:15:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:18:9-20:56
+37            android:name="br.com.collectionmanager.CollectionActivity"
+37-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:19:13-47
+38            android:label="@string/collection_title" />
+38-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:20:13-53
+39        <activity
+39-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:21:9-23:51
+40            android:name="br.com.collectionmanager.PieceActivity"
+40-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:22:13-42
+41            android:label="@string/piece_title" />
+41-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:23:13-48
+42        <activity
+42-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:24:9-26:54
+43            android:name="br.com.collectionmanager.AddCollectionActivity"
+43-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:25:13-50
+44            android:label="@string/add_collection" />
+44-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:26:13-51
+45        <activity
+45-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:27:9-29:49
+46            android:name="br.com.collectionmanager.AddPieceActivity"
+46-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:28:13-45
+47            android:label="@string/add_piece" />
+47-->C:\Workspace\Ana\app\src\main\AndroidManifest.xml:29:13-46
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\henri\.gradle\caches\8.13\transforms\70bb9e4b1b4cb8fcb3e2a6f51dcd2fc7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\henri\.gradle\caches\8.13\transforms\70bb9e4b1b4cb8fcb3e2a6f51dcd2fc7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+51            android:authorities="br.com.collectionmanager.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\henri\.gradle\caches\8.13\transforms\70bb9e4b1b4cb8fcb3e2a6f51dcd2fc7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\henri\.gradle\caches\8.13\transforms\70bb9e4b1b4cb8fcb3e2a6f51dcd2fc7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\henri\.gradle\caches\8.13\transforms\70bb9e4b1b4cb8fcb3e2a6f51dcd2fc7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\henri\.gradle\caches\8.13\transforms\70bb9e4b1b4cb8fcb3e2a6f51dcd2fc7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\henri\.gradle\caches\8.13\transforms\70bb9e4b1b4cb8fcb3e2a6f51dcd2fc7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\henri\.gradle\caches\8.13\transforms\cb77ae94aec93e2e4e5d836d0a010803\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\henri\.gradle\caches\8.13\transforms\cb77ae94aec93e2e4e5d836d0a010803\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\henri\.gradle\caches\8.13\transforms\cb77ae94aec93e2e4e5d836d0a010803\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>

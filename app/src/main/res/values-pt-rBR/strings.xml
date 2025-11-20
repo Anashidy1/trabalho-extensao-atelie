@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Gerenciador de Coleções</string>
+    <string name="collection_title">Detalhes da Coleção</string>
+    <string name="piece_title">Detalhes da Peça</string>
+    <string name="add_collection">Adicionar Coleção</string>
+    <string name="add_piece">Adicionar Peça</string>
+    <string name="collections">Coleções</string>
+    <string name="pieces">Peças</string>
+    <string name="name">Nome</string>
+    <string name="description">Descrição</string>
+    <string name="start_date">Data de Início</string>
+    <string name="estimated_release">Lançamento Estimado</string>
+    <string name="entry_date">Data de Entrada</string>
+    <string name="delivery_deadline">Prazo de Entrega</string>
+    <string name="observations">Observações</string>
+    <string name="status">Status</string>
+    <string name="pending">Pendente</string>
+    <string name="in_production">Em Produção</string>
+    <string name="completed">Concluído</string>
+    <string name="save">Salvar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Excluir</string>
+    <string name="cancel">Cancelar</string>
+    <string name="filter">Filtrar</string>
+    <string name="all">Todos</string>
+    <string name="confirm_delete">Tem certeza que deseja excluir?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+</resources>

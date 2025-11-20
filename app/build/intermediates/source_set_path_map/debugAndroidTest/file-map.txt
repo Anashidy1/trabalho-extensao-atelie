@@ -1,0 +1,7 @@
+br.com.collectionmanager.test.app-jetified-core-1.5.0-0 C:\Users\henri\.gradle\caches\transforms-3\18735415d4e4f1db66f00b6099ea2138\transformed\jetified-core-1.5.0\res
+br.com.collectionmanager.test.app-jetified-annotation-experimental-1.3.0-1 C:\Users\henri\.gradle\caches\transforms-3\a99e355ea971d44ae39704ce0ccfe73a\transformed\jetified-annotation-experimental-1.3.0\res
+br.com.collectionmanager.test.app-androidTest-2 C:\Workspace\Ana\app\build\generated\res\resValues\androidTest\debug
+br.com.collectionmanager.test.app-androidTest-3 C:\Workspace\Ana\app\build\generated\res\rs\androidTest\debug
+br.com.collectionmanager.test.app-mergeDebugAndroidTestResources-4 C:\Workspace\Ana\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+br.com.collectionmanager.test.app-mergeDebugAndroidTestResources-5 C:\Workspace\Ana\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+br.com.collectionmanager.test.app-merged_res-6 C:\Workspace\Ana\app\build\intermediates\merged_res\debugAndroidTest

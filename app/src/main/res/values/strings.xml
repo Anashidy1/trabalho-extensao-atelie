@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Collection Manager</string>
+    <string name="collection_title">Collection Details</string>
+    <string name="piece_title">Piece Details</string>
+    <string name="add_collection">Add Collection</string>
+    <string name="add_piece">Add Piece</string>
+    <string name="collections">Collections</string>
+    <string name="pieces">Pieces</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="start_date">Start Date</string>
+    <string name="estimated_release">Estimated Release</string>
+    <string name="entry_date">Entry Date</string>
+    <string name="delivery_deadline">Delivery Deadline</string>
+    <string name="observations">Observations</string>
+    <string name="status">Status</string>
+    <string name="pending">Pending</string>
+    <string name="in_production">In Production</string>
+    <string name="completed">Completed</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="filter">Filter</string>
+    <string name="all">All</string>
+    <string name="confirm_delete">Are you sure you want to delete?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>
